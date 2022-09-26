@@ -40,6 +40,45 @@ Indeed! So far, we've only seen how we can access properties that are directly
 available on the rst object that __proto__ has a reference to. However,
 prototypes themselves also have a __proto__ object! <br/>
 
-## Container / Presentational Pattern <br/>
+## Container / Presentational Pattern
 Enforce separation of concerns by separating the view from the application logic
 
+<br/>
+
+## Observer Pattern 
+Use observables to notify subscribers when an event occurs
+
+<br/>
+
+## Module Pattern 
+Split up your code into smaller, reusable pieces <br/>
+
+<br/>
+
+## Mixin Pattern
+Add functionality to objects or classes without inheritance <br/>
+
+<br/>
+
+## Mediator / Middleware Pattern
+just API stuff
+
+<br/>
+
+## Render Props Pattern
+Pass JSX elements to components through props. ex: <br/>
+```
+const Title = props => props.render();
+
+<Title render={()=> <h1>I am a render prop!</h1>}/>
+```
+
+<br/>
+
+## Hooks Pattern
+Use functions to reuse stateful logic among multiple components throughout the app
+
+<br/>
+
+## HOC Pattern
+Pass reusable logic down as props to components throughout your application
